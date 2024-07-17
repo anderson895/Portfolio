@@ -1,0 +1,18 @@
+.carousel-inner img {
+    max-width: 100%;
+    max-height: 700px; /* Adjust this value to change the height */
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 768px) {
+    #carousel1 {
+      display: none;
+    }
+    #carousel2 {
+      display: block;
+      width: 100%;
+    }
+  }
